@@ -37,9 +37,10 @@ int main(int argc, char** argv)
         joint1_pub.publish(joint1_angle);
         joint2_pub.publish(joint2_angle);
 
-        // Sleep for the time remaining until 10Hz is reached
+        // Sleep for the time remaining until 10 Hz is reached
         loop_rate.sleep();
     }
 
     return 0;
 }
+
